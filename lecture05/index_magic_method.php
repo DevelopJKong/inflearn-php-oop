@@ -19,6 +19,7 @@ class A
     // }
 
     // 2
+    //없는 함수를 만들고 호출할때 사용한다 
     public static function __callStatic($name,$args) {
         var_dump($name,$args);
     }
