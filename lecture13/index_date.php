@@ -39,11 +39,3 @@ $di3 = DateInterval::createFromDateString('+5 days');
 
 $dp = new DatePeriod($dt3,$di3,$dt4);
 var_dump($dp);
-
-
-
-
-
-
-
-
