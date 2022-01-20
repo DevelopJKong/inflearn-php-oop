@@ -70,7 +70,7 @@ class DatabaseSessionHandler implements SessionHandlerInterface
             }
             return true;
         }
-        return true;
+        return false;
     }
     public function destroy($session_id)
     {
